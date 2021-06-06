@@ -5,31 +5,23 @@ _A ridiculously over-engineered simulator for estimating the answer to the Hyper
 This simulator was inspired by [this awesome video](https://youtu.be/6_yU9eJ0NxA) by [Numberphile](https://www.youtube.com/channel/UCoxcjq-8xIDTYp3uz647V5A), featuring [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). The problem was devised by [Greg Egan](https://twitter.com/gregeganSF) in [this tweet](https://twitter.com/i/status/1160461092973211648).
 <table>
   <tr>
-    <th>
-      In essence though the problem is as follows:
-    </th>
-    <th>
-      Here's a gif from Greg's tweet, which illustrates the problem well:
-    </th>
+    <th>In essence the problem is as follows:</th>
+		<th>Here's a gif from Greg's tweet, which illustrates the problem well:</th>
   </tr>
   <tr>
-  <td>
+		<td>
 
-
-- The perculiar game of 'Hyper Darts' starts of with a big bullseye
-- Every time the player shoots within the bullseye, it gets smaller
-- The new radius of the bullseye is the length of the perpendicular chord that contains the dart in the old bullseye
-- So the closer you hit to the center of the bullseye the less the bullseye will shrink
-- If you hit outside the bullseye it is game over and your score is the number of darts you've thrown (or 1 + the number of times you hit the bullseye)
-- Now suppose that a player throws a darts that has an equal chance to hit anywhere within a square circumscribed around the original bullseye
-- What is the expected score of that player? Or in other words if that player were to play an infinite amount of Hyper Darts games what will the average score be?
-  </td>
-  <td>
-
-
-<img src="https://user-images.githubusercontent.com/30286047/120922163-4058f100-c6d0-11eb-810b-2aaf58322768.gif" alt="A gif which illustrates the problem by showing how a game of 'Hyper Darts' might happen">
-    
-  </td>
+- The perculiar game of 'Hyper Darts' starts of with a giant bullseye
+- Every time the player shoots within the bullseye, it becomes smaller
+- The new radius of the bullseye is the length of the perpendicular chord (in the old bullseye) that contains the dart 
+- So the closer you hit to the center of the bullseye the less it will shrink
+- If you hit outside the bullseye it is game over and your score is the number of darts you've thrown (in other words - 1 plus the number of times you hit the bullseye)
+- Now suppose that a player always throws a dart that has an equal chance to hit anywhere within a square circumscribed around the original bullseye
+- What is the expected score of that player? Or in other words if that player were to play an infinite amount of Hyper Darts games what will their average score be?
+    </td>
+	  <td>
+      <img src="https://user-images.githubusercontent.com/30286047/120922163-4058f100-c6d0-11eb-810b-2aaf58322768.gif" alt="A gif which illustrates the problem by showing how a game of 'Hyper Darts' might happen">
+    </td>
   </tr>
 </table>
   
