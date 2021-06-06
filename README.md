@@ -27,6 +27,7 @@ This simulator was inspired by [this awesome video](https://youtu.be/6_yU9eJ0NxA
   
 ## The Simulator
 Once I heard the problem in the video I knew it was a relatively simple and straightforward simulation to do and so I wanted to do it. I didn't even watch the rest of the video, because I didn't want to spoil the answer for myself.
+[Click here](#the-simulations	)
 
 **⚠ Spoiler Alert:** If you don't want to spoil the answer for yourself, here is probably the place to stop reading for the moment.
 
