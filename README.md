@@ -6,10 +6,10 @@ This simulator was inspired by [this awesome video](https://youtu.be/6_yU9eJ0NxA
 <table>
   <tr>
     <th>In essence the problem is as follows:</th>
-		<th>Here's a gif from Greg's tweet, which illustrates the problem well:</th>
+	  <th>Here's a gif from Greg's tweet, which illustrates the problem well:</th>
   </tr>
   <tr>
-		<td>
+	  <td>
 
 - The perculiar game of 'Hyper Darts' starts of with a giant bullseye
 - Every time the player shoots within the bullseye, it becomes smaller
@@ -20,18 +20,19 @@ This simulator was inspired by [this awesome video](https://youtu.be/6_yU9eJ0NxA
 - What is the expected score of that player? Or in other words if that player were to play an infinite amount of Hyper Darts games what will their average score be?
     </td>
 	  <td>
-      <img src="https://user-images.githubusercontent.com/30286047/120922163-4058f100-c6d0-11eb-810b-2aaf58322768.gif" alt="A gif which illustrates the problem by showing how a game of 'Hyper Darts' might happen">
+      <img src="https://user-images.githubusercontent.com/30286047/120922163-4058f100-c6d0-11eb-810b-2aaf58322768.gif" alt="A gif which illustrates the problem by showing how a game of Hyper Darts might happen">
     </td>
   </tr>
 </table>
   
 ## The Simulator
 Once I heard the problem in the video I knew it was a relatively simple and straightforward simulation to do and so I wanted to do it. I didn't even watch the rest of the video, because I didn't want to spoil the answer for myself.
-[Click here](#the-simulations	)
 
-**⚠ Spoiler Alert:** If you don't want to spoil the answer for yourself, here is probably the place to stop reading for the moment.
+**⚠ Spoiler Alert:** If you don't want to spoil the answer for yourself, here is probably the place to stop reading for the moment, maybe go watch the video or something.
 
 ![The final program running in a cmd window](https://user-images.githubusercontent.com/30286047/120921866-9b89e400-c6ce-11eb-92f1-4a4d73abd096.gif)
+
+_Note: If you don't care about me ranting about the development of this thing you can [click here](#the-simulations) to skip over the results._
 
 I thought I'd use C++ for better performance and I got the simulation working in C++ very quickly actually. Here's the thing though... I could've just let it run for half a day or something, but I thought I'd use multithreading so that the simulation ran faster. The thing is, I hadn't really ever used multithreading in C++, so I knew this was gonna be a learning experience. I didn't anticipate though just how much stuff you have to consider and keep in mind when multithreading.
 
