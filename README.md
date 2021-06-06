@@ -12,6 +12,10 @@ In essence though the problem is as follows:
 - Now suppose that a player throws a darts that has an equal chance to hit anywhere within a square circumscribed around the original bullseye
 - What is the expected score of that player? Or in other words if that player were to play an infinite amount of Hyper Darts games what will the average score be?
 
+Here's a gif from Greg's tweet, which illustrates the problem well:
+
+![A gif which illustrates the problem by showing how a game of 'Hyper Darts' might happen](https://user-images.githubusercontent.com/30286047/120922163-4058f100-c6d0-11eb-810b-2aaf58322768.gif)
+
 ## The Simulator
 Once I heard the problem in the video I knew it was a relatively simple and straightforward simulation to do and so I wanted to do it. I didn't even watch the rest of the video, because I didn't want to spoil the answer for myself.
 
