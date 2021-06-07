@@ -32,7 +32,7 @@ Once I heard the problem in the video I knew it was a relatively simple and stra
 
 ![The final program running in a cmd window](https://user-images.githubusercontent.com/30286047/120921866-9b89e400-c6ce-11eb-92f1-4a4d73abd096.gif)
 
-_Note: If you don't care about me ranting about the development of this thing you can [click here](#the-simulations) to skip over to the results._
+_Note: If you don't care about me rambling about the development of this thing you can [click here](#the-simulations) to skip over to the results._
 
 I thought I'd use C++ for better performance and I got the simulation working in C++ very quickly actually. Here's the thing though... I could've just let it run for half a day or something, but I thought I'd use multithreading so that the simulation ran faster. The thing is, I hadn't really ever used multithreading in C++, like ever... I knew this was gonna be a learning experience, but I didn't anticipate though just how much stuff you have to consider and keep in mind when multithreading.
 
@@ -54,4 +54,29 @@ Total score of all simulations: 781561104166
 Maximum score achieved: 14
 Average score across all simulations: 2.1932800106764323011532269447343423962593078613281
 ```
-As you can see the simulator ran over 356 Billion simulations of the game. Alright not quite infinity, but I reckon that's pretty good. And the actual estimate that the simulator came up with wasn't bad either. According to Numberphile's video the answer to the problem is e<sup>π/4</sup>.
+As you can see the simulator ran over 356 Billion simulations of the game. Alright not quite infinity, but I reckon that's pretty good. And the actual estimate that the simulator came up with wasn't bad either. After watching Numberphile's video you'll see that the answer to the problem is e<sup>π/4</sup>. So let's compare my result to an [actual decimal approximation of the answer, according to Wolfram Alpha](https://www.wolframalpha.com/input/?i=e%5E%28pi%2F4%29):
+
+<table>
+  <tr>
+    <td>
+      My estimate
+    </td>
+    <td>
+      <b>2.1932800</b>106764323011532269447343423962593078613281
+    </td>
+  </tr>
+    <td>
+        e<sup>π/4</sup>
+    </td>
+    <td>
+      <b>2.1932800</b>507380154565597696592787382234616376419942723348580
+    </td>
+  </tr>
+</table>
+
+So all in all, I've got 8 decimal digits estimated correctly, or in other words a precision of about 0.00000004. Maybe that doesn't sound all that impressive, especially considering that I did run the simulation for 5 and a half hours, but at least it did seem to work correctly. You might be able to get better results if you run it for longer and/or on better hardware, but after running it for so long I definitely felt like I was reaching the limits of just how good of an estimate I could get with the pseudo-random number generation and also with current hardware in general.
+
+## Conclusion
+In the end, I'm very happy with how this project turned out. While I started off, thinking it would only take a couple of hours and in reality it took a couple of days to finish it, it was a massive learning experience. And also I did ultimately achieve my goal I got a correct estimate and although not particularly impressive, it had a fair amount of precision.
+
+_Note: If you are interested here's some further reading material that I found in the course of making this - [a simpler simulation of the problem](https://github.com/PinwheelGalaxy101/Shrinking-Bullseye); [an article explaining a different and more technical solution to the problem and another simpler simulation](http://blog.itdxer.com/2019/11/24/expected-value-of-the-unusual-game-of-darts.html)._
