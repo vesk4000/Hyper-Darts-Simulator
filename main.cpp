@@ -69,6 +69,9 @@ int main() {
 	cout << "Maximum score achieved: " << Simulator::MaxScore << endl;
 	cout << "Average score across all simulations: "
 		<< setprecision(50) << double(finalScore) / finalSimsCount << endl;
+	
+	cout << "Press enter to exit: ";
+	cin.get();
 
 	return 0;
 }
